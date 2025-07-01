@@ -1,0 +1,101 @@
+.Hero {
+    width: 100%;
+
+    margin-top: 130px;
+    transition: 0.3s all;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    animation-name: about2;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-iteration-count: normal;
+}
+
+@keyframes about2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    letter-spacing: 2px;
+    color: black;
+
+
+
+}
+
+.text h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+
+}
+
+.text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+    color: black;
+}
+
+.text a {
+    background-color: rgb(215, 126, 48);
+    width: max-content;
+    box-shadow: 10px 10px 7px var(--Color1);
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s all;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 130px;
+    border: 2px solid var(--Color3);
+
+}
+
+#w1 {
+    padding-left: 10px;
+    font-size: 30px;
+
+}
+
+.text a:hover {
+    background-color: transparent;
+    border: 2px solid var(--Color3);
+    color: var(--Color2);
+}
+
+.text a:active {
+    scale: 0.9;
+
+}
+
+.right-side {
+    width: 100%;
+    height: 550px;
+    background-image: url(https://museums.visitjordan.com/uploads/museums/images/c78458e6-3bb3-44e4-b363-0abc5869ef86.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

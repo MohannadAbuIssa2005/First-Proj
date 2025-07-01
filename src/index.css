@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Tor";
+  src: url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Edu+SA+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Tor", sans-serif;
+  font-weight: 600;
+  scroll-behavior: smooth;
+
+}
+
+:root {
+  --Color1: rgba(45, 44, 44, 0.496);
+  --Color2: black;
+  --Color3: rgb(215, 126, 48);
+}
+
+button {
+  all: unset;
+}
+
+html {
+  background-color: var(--Color2);
+}

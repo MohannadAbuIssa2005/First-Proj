@@ -1,0 +1,137 @@
+.Main {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: var(--Color1);
+    box-shadow: 0px 0px 5px gray;
+    padding-top: 20px;
+    animation-name: about2;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: normal;
+}
+
+
+
+.img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+
+.img img {
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+
+
+}
+
+.Main .title {
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.title h1 {
+
+    color: white;
+    font-weight: 800;
+
+}
+
+.ser {
+    margin-top: 90px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.ser .title {
+    border: none;
+    border-top: 1px solid gray;
+    padding-top: 30px;
+
+}
+
+.ser .title h1 {
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+
+}
+
+.ser .title span {
+    color: gray;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.contaner {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    border: 1px solid gray;
+    width: 300px;
+    height: max-content;
+    padding: 30px;
+    border-radius: 50% 20% / 10% 40%;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.card:hover {
+    scale: 1.01;
+    box-shadow: 0px 0px 5px white;
+}
+
+.card .icon span {
+    font-size: 60px;
+
+}
+
+.card .title h3 {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.info {
+    text-align: center;
+}
+
+.card .info p {
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    line-height: 25px;
+    height: 80px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: gray var(--Color1);
+    scroll-behavior: smooth;
+
+}

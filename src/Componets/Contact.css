@@ -1,0 +1,221 @@
+.Contact {
+    display: flex;
+    width: 90%;
+    margin-top: 100px;
+    background-color: var(--Color1);
+    box-shadow: 0px 0px 5px gray;
+    padding-top: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 700px;
+    margin-bottom: 30px;
+}
+
+.Contact .title {
+    position: absolute;
+    top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.left-sec {
+    width: 50%;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.right-sec {
+    width: 50%;
+    height: 300px;
+}
+
+.right-sec p {
+    margin-left: 200px;
+}
+
+.form {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 60px;
+}
+
+.form .email {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.form .email input {
+    all: unset;
+    width: 310px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: var(--Color1);
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+.form .email input:focus {
+    box-shadow: 0px 0px 3px gray;
+
+}
+
+.form .email label {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+}
+
+.form .email i {
+    font-size: 30px;
+    background-color: rgba(0, 0, 255, 0.623);
+    border-radius: 10px;
+    padding: 6px;
+
+}
+
+.form .massge {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.form .massge label {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.form .massge i {
+    font-size: 30px;
+    background-color: rgba(0, 0, 255, 0.623);
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.form .massge textarea {
+    all: unset;
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+    background-color: var(--Color1);
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+.form .massge textarea:focus {
+    box-shadow: 0px 0px 3px gray;
+}
+
+.form .select {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.623);
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: 1s all;
+
+}
+
+.form .select select {
+    margin: 10px;
+    font-weight: 800;
+    background-color: gray;
+    outline: none;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+
+}
+
+.form .select select option {
+    background-color: gray;
+}
+
+.form button {
+    background-color: rgba(0, 0, 255, 0.623);
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form button:hover {
+    box-shadow: 0px 0px 10px gray;
+}
+
+.form button:active {
+    scale: 0.9;
+}
+
+.form p {
+    display: flex;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 25px;
+    gap: 10px;
+}
+
+@media(max-width:768px) {
+    .right-sec {
+        display: none;
+        width: 0px;
+    }
+
+    .Contact .title h1 {
+        font-size: 35px;
+    }
+
+    .form .select {
+        width: 90%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .form .select select {
+        margin: 3px;
+
+    }
+
+    .form .email,
+    .form .massge {
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+        height: 100px;
+        padding-bottom: 40px;
+    }
+
+    .form {
+        line-height: 50px;
+    }
+
+    .left-sec {
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px;
+
+    }
+
+}
