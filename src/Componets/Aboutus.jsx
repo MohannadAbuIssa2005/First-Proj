@@ -1,19 +1,17 @@
-import React, { useEffect, useState } from 'react'
 import "./Aboutus.css"
 import { FaFlag } from "react-icons/fa";
 import { TbRating14Plus } from "react-icons/tb";
 import { SiOpenstreetmap } from "react-icons/si";
 import { GiStarsStack } from "react-icons/gi";
-import ali from "/New folder/toures/src/ali.jpg"
 
 export default function Aboutus() {
 
 
 
     return (
-        
+
         <div className='Aboutus'>
-          
+
             <div className="title">
                 <h1>About Us</h1>
             </div>
@@ -27,7 +25,7 @@ export default function Aboutus() {
                         <h4>What is Your Name</h4>
                     </div>
                     <div className="info">
-                        <p>I’m Mohammad — a professional van
+                        <p>Im Mohammad — a professional van
                             driver and freelance tour guide
                             based in the heart of Jordan. With</p>
                     </div>
@@ -62,7 +60,7 @@ export default function Aboutus() {
                             Whether you're visiting ancient
                             Petra, exploring the desert of Wadi
                             Rum, floating in the Dead Sea, or walking
-                            through the Roman ruins of Jerash — I’m
+                            through the Roman ruins of Jerash — Im
                             here to make your journey unforgettable.
                         </p>
                     </div>
@@ -77,15 +75,10 @@ export default function Aboutus() {
                         <h4>What makes me special?</h4>
                     </div>
                     <div className="info">
-                        <p>With me, you're not just a passenger — you're a guest and a friend. Let’s explore Jordan together!</p>
+                        <p>With me, you're not just a passenger — you're a guest and a friend. Lets explore Jordan together!</p>
                     </div>
                 </div>
-                <div className="card">
 
-                    <div className='img'>
-                        <img src={ali} alt="" />
-                    </div>
-                </div>
 
             </div>
         </div>
