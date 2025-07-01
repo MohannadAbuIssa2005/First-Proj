@@ -5,7 +5,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import Lottie from "lottie-react";
 import email from '/New folder/toures/src/assets/Animation_1751122075533.json'
-import arrow from '/New folder/toures/src/assets/Animation _1751123504493.json'
+import arrow from '/New folder/toures/src/assets/Animation_1751123504493.json'
 
 export default function Contact() {
     const [state, handleSubmit] = useForm("xkgbkkqn");
